@@ -34,6 +34,12 @@
                 "wdth" 100;
         }
 
+        #skills .skill-container .card img {
+            width: 50px !important;
+            height: 50px !important;
+            object-fit: contain;
+        }
+
         .services-section {
             background-color: #f8f9fa;
             padding: 50px 0;
@@ -115,8 +121,8 @@
     <section id="skills" class="skills-section" style="padding: 6rem 0;">
         <div class="container">
             <h1 class="mb-4">Skills</h1>
-            <div class="row align-items-center gap-3">
-                <div class="col-3">
+            <div class="skill-container row align-items-center container-fluid gap-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -131,7 +137,7 @@
                     </div>
                 </div>
             
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -146,7 +152,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -161,7 +167,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -176,7 +182,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -191,7 +197,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -206,7 +212,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -221,7 +227,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -236,7 +242,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5 col-lg-3">
                     <div class="card mb-3">
                         <div class="g-0 row">
                             <div class="col-md-2 my-auto">
@@ -259,7 +265,7 @@
         <div class="container">
             <h1>Projects</h1>
             <div id="projects-cards" class="row mt-4">
-                <div class="col-lg-4 mt-4 mb-4">
+                <div class="col-9 col-md-6 col-lg-4 mt-4 mb-4">
                     <div class="card">
                         <div class="post-card">
                             <div class="post-card-image">
@@ -279,7 +285,7 @@
                     </div>                                                             
                 </div>
 
-                <div class="col-lg-4 mt-4 mb-4">
+                <div class="col-9 col-md-6 col-lg-4 mt-4 mb-4">
                     <div class="card">
                         <div class="post-card">
                             <div class="post-card-image">
@@ -292,7 +298,7 @@
                                 </h4>
                     
                                 <div class="post-card-description">
-                                    A game made fully in core Python, with no external dependencies.
+                                    A space-invaders like game made fully in core Python, with no external dependencies.
                                 </div>
                             </div>
                         </div>
@@ -308,7 +314,7 @@
         <div class="container">
             <h1>Services</h1>
             <div id="services-cards" class="row mt-4">
-                <div class="col-lg-4 mt-4 mb-4">
+                <div class="col-9 col-md-6 col-lg-4 mt-4 mb-4">
                     <div class="card">
                         <div class="post-card">
                             <div class="post-card-image">
@@ -328,7 +334,7 @@
                     </div>                                                             
                 </div>
 
-                <div class="col-lg-4 mt-4 mb-4">
+                <div class="col-9 col-md-6 col-lg-4 mt-4 mb-4">
                     <div class="card">
                         <div class="post-card">
                             <div class="post-card-image">
@@ -358,19 +364,19 @@
             <h1>Contact Me</h1>
 
             <div class="row gap-3">
-                <div class="col-1 skill">
+                <div class="col-6 col-md-4 col-lg-1 skill">
                     LinkedIn:
                     <a href="https://www.linkedin.com/in/irtiza-babar-a3428b22a">
                         <img src="./icons/linkedin.svg" alt="" width="70" height="70">
                     </a>
                 </div>
-                <div class="col-1 skill">
+                <div class="col-6 col-md-4 col-lg-1 skill">
                     Github:
                     <a href="https://github.com/irtiza90">
                         <img src="./icons/github.png" alt="" width="70" height="70">
                     </a>
                 </div>
-                <div class="col-2 skill">
+                <div class="col-12 col-md-4 col-lg-2 skill">
                     Email:
                     <br>
                     <div class="d-flex">
@@ -384,6 +390,7 @@
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj+KsslFkCOt3TvJrX2AV/Gc3wOqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
